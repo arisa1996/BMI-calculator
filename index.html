@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI calculator</title>
+    <link rel="stylesheet" href="./css/all.css">
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-family: "微軟正黑體";
+        }
+    </style>
+    
+    <div class="wrap">
+        <div class="banner">
+            <div class="bmiImg"><img src="https://github.com/Jimmywei01/Pratice/blob/master/BMI.JPG?raw=true"></div>
+            <div class="content">
+                <div class="inputArea">
+                    <label for="height">身高 cm</label>
+                    <input type="text" id= "height" placeholder="請輸入身高">
+                    <label for="body-weight">體重 kg</label>
+                    <input type="text" id= "body-weight" placeholder="請輸入體重">
+                </div>
+                <div class="resultBtn">
+                    <input type="button" value="看結果" class="btn">
+                </div>
+            </div>
+        </div>
+        <div class="recordArea">
+            <h2>BMI 紀錄</h2>
+            <ul class="list"></ul>
+            <p id="clearHistory">清除歷史紀錄</p>
+        </div>
+        <div class="footer"><img src="https://github.com/Jimmywei01/Pratice/blob/master/BMI2.JPG?raw=true"></div></div>
+    </div>
+
+    <script src="/all.js"></script>
+</body>
+</html>

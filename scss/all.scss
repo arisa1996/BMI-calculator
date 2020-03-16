@@ -1,0 +1,197 @@
+.banner{
+    background-color: #424242;
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bmiImg{
+    img{
+        margin-right: 70px;
+    }
+}
+.content{
+    display: flex;
+    align-items: center;
+    .inputArea{
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        color: #FFD366;
+        label{
+            margin-bottom: 5px;
+        }
+        input{
+            background: rgba(255,255,255,0.18);
+            border: 2px solid #FFD366;
+            border-radius: 10px;
+            outline: 0px;
+            font-family: "微軟正黑體";
+            font-size: 24px;
+            color: rgba(255,255,255,0.5);
+            padding: 5px 10px;
+            margin-bottom: 20px;
+            &:focus{
+                color: #fff;
+            }
+        }
+    }
+    .resultBtn{
+        margin-left: 70px;
+        .btn{
+            background: #FFD366;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: none;
+            outline: 0px;
+            font-size: 24px;
+            cursor: pointer;
+            &:hover{
+                box-shadow:0 0 3px 3px #FFD366;
+            }
+        }
+    }
+}
+.recordArea{
+    padding: 30px;
+    background: #DDDADC;
+    h2{
+        margin-bottom: 30px;
+        font-size: 24px;
+        color: #424242;
+        text-align: center;
+    }
+}
+.list{
+    width: 625px;
+    color: #4A4A4A;
+    margin: 0 auto;
+    .listLi{
+        width: 620px;
+        display: flex;
+        justify-content: space-around;
+        padding: 15px 0;
+        margin-bottom: 15px;
+        background: #FFFFFF;
+        font-size: 12px;
+        border-left: 5px solid #86D73F;
+        p{
+            line-height: 26px;
+        }
+        .style,span{
+            font-size: 20px;
+        }
+        span{
+            margin-left: 3px;
+        }
+    }
+    
+    
+}
+#clearHistory{
+    text-align: center;
+    color: rgb(192, 41, 159);
+    cursor: pointer;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.footer{
+    text-align: center;
+    background: #FFD366;
+    padding: 18px;
+}
+
+.changeBtn{
+    padding: 20px 0;
+    color: #FF982D;
+    position: relative;
+    .newBtn{
+        width: 114px;
+        height: 114px;
+        border-radius: 50%;
+        font-family: "微軟正黑體";
+        font-size: 32px;
+        text-align: center;
+        line-height: 114px;
+        border: 6px solid #FFD366;
+    }
+    .BMI{
+        font-size: 14px;
+        position: absolute;
+        bottom: 45px;
+        left: 47px;
+    }
+    .judge{
+        font-size: 32px;
+        width: 150px;
+        position: absolute;
+        top: 60px;
+        left: 140px;
+    }
+    #refreshBtn{
+        display: block;
+        background-color: #FFD366;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin: 3px;
+        position: absolute;
+        bottom: 20px;
+        left: 85px;
+        cursor: pointer;
+        img{
+            position: absolute;
+            top:0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }
+        &:hover{
+            box-shadow: 0 0 5px 2px #FFF inset;
+        }
+    }
+}
+
+
+//changListColor
+.list .lev1{
+    border-left: 5px solid #31BAF9 ;
+}
+.list .lev2{
+    border-left: 5px solid #86D73F;
+}
+.list .lev3{
+    border-left: 5px solid #FF982D;
+}
+.list .lev4{
+    border-left: 5px solid #FF6C03;
+}
+.list .lev5{
+    border-left: 5px solid #ff4a03f1;
+}
+.list .lev6{
+    border-left: 5px solid #FF1200;
+}
+
+//changeBtnColor
+.resultBtn .btn1{
+    color: #31BAF9;
+}
+.resultBtn .btn2{
+    color: #86D73F;
+}
+.resultBtn .btn3{
+    color: #FF982D;
+}
+.resultBtn .btn4{
+    color: #FF6C03;
+}
+.resultBtn .btn5{
+    color: #ff4a03f1;
+}
+.resultBtn .btn6{
+    color: #FF1200;
+}
